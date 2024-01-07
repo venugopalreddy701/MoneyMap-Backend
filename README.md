@@ -1,5 +1,7 @@
 # MoneyMap-Backend
-Backend application for MoneyMap iOS Application. This uses JWT Authentication. It has basic CRUD APIs for User. 
+Backend application for MoneyMap iOS Application. This uses JWT Authentication. It has basic CRUD APIs for User to track all the Money transactions. 
+
+Prefix for APIs - http://localhost:8082
 
 ## Description of APIs
 
@@ -32,12 +34,15 @@ For Below APIs, pass JWT token as bearer token in the Request header.
 
 <img width="238" alt="image" src="https://github.com/venugopalreddy701/MoneyMap-Backend/assets/72261416/ee7433d6-38c5-4d55-8722-8c8855cebf36">
 
-Prefix for APIs - http://localhost:8082
+
+
+
+
 
 
 
 ## Postman Collection
-You can import my postman collection file in this repo - [MoneyMap.postman_collection.json](https://github.com/venugopalreddy701/MoneyMap-Backend/blob/main/MoneyMap.postman_collection.json) and see the examples to know how to hit these APIs.
+You can import my postman collection file from this repo - [MoneyMap.postman_collection.json](https://github.com/venugopalreddy701/MoneyMap-Backend/blob/main/MoneyMap.postman_collection.json) and see the examples to know how to hit these APIs.
 
 ## Swagger Doc
 
