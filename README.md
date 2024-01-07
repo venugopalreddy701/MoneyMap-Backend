@@ -104,7 +104,7 @@ The endpoints of "Get user profile ,update profile picture and Signout" and "CRU
     "signout"
 ]
 ```
-### User - createTransaction (Request)
+### Transaction - createTransaction (Request)
 ```bash
   {
     "type":"earned",
@@ -112,7 +112,7 @@ The endpoints of "Get user profile ,update profile picture and Signout" and "CRU
     "amount":89000
 }
 ```
-### User - getTransactions (Response)
+### Transaction - getTransactions (Response)
 ```bash
   [
     {
@@ -133,7 +133,7 @@ The endpoints of "Get user profile ,update profile picture and Signout" and "CRU
     }
 ]
 ```
-### User - updateTransaction(Request)
+### Transaction - updateTransaction(Request)
 ```bash
   {
     "id":"3",
@@ -142,7 +142,7 @@ The endpoints of "Get user profile ,update profile picture and Signout" and "CRU
     "amount":89000
 }
 ```
-### User - deleteTransaction?transaction_id=2
+### Transaction - deleteTransaction?transaction_id=2
 ```bash
   [
     "deleted"
